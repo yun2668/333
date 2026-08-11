@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="新北市汽油車定期排氣檢驗便民資訊：8年以上汽油車、每2年1次、原發照月份前後1個月、檢驗站查詢、E定通、罰則與常見問題。">
+<title>新北市汽油車定期排氣檢驗資訊專區</title>
+<link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">EV</span>
+      <span>
+        <strong>汽油車定期排氣檢驗</strong>
+        <small>GASOLINE VEHICLE EMISSION INSPECTION</small>
+      </span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="開啟選單" aria-expanded="false">☰</button>
+
+    <nav class="nav" id="mainNav">
+      <a href="#who">誰要定檢</a>
+      <a href="#date">期限查詢</a>
+      <a href="#process">檢驗流程</a>
+      <a href="#data">數據看板</a>
+      <a href="#penalty">不合格／罰則</a>
+      <a href="#faq">常見問題</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">汽油車污染管制 × 定期排氣檢驗</p>
+      <h1>出廠滿 8 年<br><span>排氣定檢別忘記</span></h1>
+      <p class="lead">
+        出廠滿 8 年以上的汽油車，原則上每 2 年於「車齡為偶數年」時接受排氣定檢；
+        檢驗期限為行照原發照月份前後各 1 個月。
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="#who">30 秒看懂自己要不要驗</a>
+        <a class="btn light" href="https://mobile.moenv.gov.tw/FuelCar/Query" target="_blank" rel="noopener">查我的定檢紀錄 ↗</a>
+      </div>
+
+      <div class="hero-tags">
+        <span>8 年以上</span>
+        <span>每 2 年 1 次</span>
+        <span>前後各 1 個月</span>
+        <span>不合格 1 個月內複驗</span>
+      </div>
+    </div>
+
+    <div class="hero-panel">
+      <div class="car-icon">🚗</div>
+      <strong>今年需要驗嗎？</strong>
+      <p>先看「出廠年數」，再看今年車齡是不是 8、10、12、14…等偶數年。</p>
+      <div class="age-line">
+        <span class="off">6</span><span class="off">7</span><span class="on">8</span><span>9</span><span class="on">10</span><span>11</span><span class="on">12</span>
+      </div>
+      <small>若曾檢驗不合格後改善合格，另有連續 2 年每年定檢規定。</small>
+    </div>
+  </div>
+</section>
+
+<section class="key-stats">
+  <div><small>一般定檢對象</small><strong>出廠滿 8 年</strong></div>
+  <div><small>一般檢驗頻率</small><strong>每 2 年 1 次</strong></div>
+  <div><small>每次檢驗期間</small><strong>共約 3 個月</strong></div>
+  <div><small>不合格後</small><strong>1 個月內複驗</strong></div>
+</section>
+
+<section class="section" id="who">
+  <div class="section-title">
+    <p class="eyebrow">WHO NEEDS INSPECTION</p>
+    <h2>先分成兩種車主，就很好懂</h2>
+    <p>目前正式規定有「一般車齡定檢」和「曾經不合格後的加強管理」兩種情形。</p>
+  </div>
+
+  <div class="who-grid">
+    <article class="who-card primary-card">
+      <div class="who-icon">🚘</div>
+      <span class="chip">一般車主</span>
+      <h3>出廠滿 8 年以上</h3>
+      <strong>車齡為偶數年時，每 2 年驗 1 次</strong>
+      <p>例如車齡滿 8、10、12、14 年……時，於該年度依原發照月份辦理排氣定檢。</p>
+    </article>
+
+    <article class="who-card warning-card">
+      <div class="who-icon">🔧</div>
+      <span class="chip">曾經不合格</span>
+      <h3>改善／複驗合格後</h3>
+      <strong>次年起連續 2 年，每年驗 1 次</strong>
+      <p>連續 2 年定檢均合格後，才回到一般「每 2 年 1 次」的頻率。</p>
+    </article>
+  </div>
+
+  <div class="simple-example">
+    <b>簡單例子：</b>
+    <span>某車今年車齡剛好 8 年，而且行照原發照月份是 5 月 → 原則上可於 4 月、5 月、6 月完成該年度排氣定檢。</span>
+  </div>
+</section>
+
+<section class="date-section" id="date">
+  <div class="date-inner">
+    <div class="date-copy">
+      <p class="eyebrow light">DATE CHECKER</p>
+      <h2>檢驗月份快速查詢</h2>
+      <p>如果今年確定是你的排氣定檢年度，只要選擇「行照原發照月份」，就能快速看到可辦理的月份。</p>
+    </div>
+
+    <div class="date-card">
+      <label for="monthSelect">行照原發照月份</label>
+      <div class="date-form">
+        <select id="monthSelect">
+          <option value="">請選擇月份</option>
+          <option value="1">1 月</option><option value="2">2 月</option><option value="3">3 月</option>
+          <option value="4">4 月</option><option value="5">5 月</option><option value="6">6 月</option>
+          <option value="7">7 月</option><option value="8">8 月</option><option value="9">9 月</option>
+          <option value="10">10 月</option><option value="11">11 月</option><option value="12">12 月</option>
+        </select>
+        <button id="monthBtn" type="button">立即查詢</button>
+      </div>
+      <div class="date-result" id="monthResult">請先選擇月份</div>
+      <small>是否屬當年度檢驗對象，仍請以環境部汽車定檢系統及主管機關資料為準。</small>
+    </div>
+  </div>
+</section>
+
+<section class="section compare-section">
+  <div class="section-title">
+    <p class="eyebrow">DON'T CONFUSE THEM</p>
+    <h2>「車輛安全定檢」和「排氣定檢」不完全相同</h2>
+    <p>112 年 7 月起，汽油車排氣檢驗回歸環保法規管理，但實務上仍可在監理所站或認可代檢廠一起辦理。</p>
+  </div>
+
+  <div class="compare-grid">
+    <article>
+      <span class="compare-icon">🛞</span>
+      <h3>車輛安全定期檢驗</h3>
+      <p>依道路交通安全相關規定辦理，檢查煞車、燈光、底盤等安全項目；檢驗頻率依車種與車齡不同。</p>
+    </article>
+    <div class="plus">＋</div>
+    <article class="accent">
+      <span class="compare-icon">🌿</span>
+      <h3>汽油車排氣定期檢驗</h3>
+      <p>屬空氣污染防制管理。到檢時電腦系統會自動判定該車是否需要做排氣檢測，車主不必自行計算。</p>
+    </article>
+  </div>
+
+  <div class="fee-note">
+    <span>💡</span>
+    <p>汽油車排氣定檢檢測費用為每輛 100 元，由空污基金補助；實務上車主無需額外負擔這項排氣檢驗費用。</p>
+  </div>
+</section>
+
+<section class="photo-band">
+  <div class="photo-band-inner">
+    <figure class="official-photo">
+      <div class="photo-fallback">
+        <span>🚗🔬</span>
+        <strong>汽油車排氣檢驗實景</strong>
+        <small>外部政府照片若無法載入，會顯示此備援畫面。</small>
+      </div>
+      <img class="remote-photo"
+           src="https://ws.thb.gov.tw/001/Upload/450/relpic/13360/225049/f4a8a077-1c45-43d8-9bb5-6449f8f9a227.jpg"
+           alt="監理站人員進行汽油車排氣檢驗">
+      <figcaption>汽油車排氣檢驗實景｜圖片來源：交通部公路局</figcaption>
+    </figure>
+
+    <div class="photo-copy">
+      <p class="eyebrow">WHAT IS TESTED</p>
+      <h2>排氣管插入採樣管，就能量測排氣狀況</h2>
+      <p>環境部汽車定檢系統可查到檢驗日期、結果，以及 HC、CO、CO₂ 等檢驗數值。定期檢驗有助於找出燃燒或污染控制系統異常的高污染車輛。</p>
+
+      <div class="gas-cards">
+        <div><b>CO</b><span>一氧化碳</span></div>
+        <div><b>HC</b><span>碳氫化合物</span></div>
+        <div><b>CO₂</b><span>檢驗紀錄數值</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="process">
+  <div class="section-title">
+    <p class="eyebrow">PROCESS</p>
+    <h2>實際辦理很簡單</h2>
+    <p>不用另外跑一個複雜流程，依平常驗車方式到監理所站或認可汽車代檢廠即可。</p>
+  </div>
+
+  <figure class="flow-visual">
+    <img src="images/inspection-flow.svg" alt="汽油車排氣定期檢驗四步驟圖解">
+  </figure>
+
+  <div class="official-buttons">
+    <a class="btn primary" href="https://mobile.moenv.gov.tw/FuelCar/Station/StationLocation" target="_blank" rel="noopener">查詢汽油車排氣檢驗站 ↗</a>
+    <a class="btn white-btn" href="https://mobile.moenv.gov.tw/FuelCar/Query" target="_blank" rel="noopener">查詢定期檢驗紀錄 ↗</a>
+  </div>
+</section>
+
+<section class="data-section" id="data">
+  <div class="section-title light-title">
+    <p class="eyebrow light">DATA</p>
+    <h2>歷年汽油車排氣定檢，不合格率約 2%</h2>
+    <p>環境部公布的歷年檢測資料顯示，汽油車排氣定檢不合格率約 2%。</p>
+  </div>
+
+  <div class="data-grid">
+    <div class="donut-card">
+      <div class="donut">
+        <div><strong>約 98%</strong><span>非不合格</span></div>
+      </div>
+      <div class="legend">
+        <p><i class="pass"></i><b>約 98%</b> 其餘檢驗結果</p>
+        <p><i class="fail"></i><b>約 2%</b> 不合格</p>
+        <small>依環境部「車輛排氣定檢檢驗」公開之汽車排氣定檢不合格率約 2% 製作。</small>
+      </div>
+    </div>
+
+    <div class="data-facts">
+      <article><strong>8 年</strong><span>開始納入一般汽油車排氣定檢對象</span></article>
+      <article><strong>2 年</strong><span>一般對象每 2 年檢驗 1 次</span></article>
+      <article><strong>±1 月</strong><span>原發照月份前後各 1 個月</span></article>
+      <article><strong>1 個月</strong><span>不合格後修復並申請複驗期限</span></article>
+    </div>
+  </div>
+</section>
+
+<section class="section failure-section" id="penalty">
+  <div class="section-title">
+    <p class="eyebrow">FAILED OR OVERDUE</p>
+    <h2>不合格或逾期，接下來怎麼辦？</h2>
+    <p>重點是不要放著不處理。定檢不合格應儘快修復，並在 1 個月內完成複驗。</p>
+  </div>
+
+  <div class="fail-flow">
+    <div><span>🔧</span><strong>檢驗不合格</strong><p>依檢驗結果檢查引擎、燃燒與污染控制系統。</p></div>
+    <b>→</b>
+    <div class="focus"><span>📅</span><strong>1 個月內修復複驗</strong><p>超過期限未完成，可能依空污法受罰。</p></div>
+    <b>→</b>
+    <div><span>✅</span><strong>複驗合格</strong><p>之後依規定進入連續 2 年每年定檢管理。</p></div>
+  </div>
+
+  <div class="penalty-grid">
+    <article><small>逾期未定檢</small><strong>500～15,000 元</strong></article>
+    <article><small>不合格後未於 1 個月內修復複驗，或期限後複驗仍不合格</small><strong>1,500～30,000 元</strong></article>
+    <article><small>逾應檢驗日起 6 個月仍未完成，經通知限改仍未改善</small><strong>3,000～60,000 元</strong></article>
+  </div>
+
+  <div class="penalty-warning">經再次通知限期改善仍未完成者，主管機關得移請公路監理機關註銷牌照；實際裁罰依個案認定。</div>
+</section>
+
+<section class="notice-section">
+  <div class="notice-inner">
+    <div class="notice-icon">✉</div>
+    <div>
+      <p class="eyebrow">E-NOTICE</p>
+      <h2>怕忘記？訂閱「使用中車輛 E 定通」</h2>
+      <p>完成 Email 驗證與車號綁定後，汽車進入定檢區間時可收到電子郵件提醒。每位使用者可管理最多 10 筆車號。</p>
+    </div>
+    <a class="btn primary" href="https://mobile.moenv.gov.tw/NoticeCarMain.aspx" target="_blank" rel="noopener">立即訂閱 ↗</a>
+  </div>
+</section>
+
+<section class="section visual-section">
+  <div class="visual-grid">
+    <figure><img src="images/clean-air.svg" alt="汽油車定期保養與排氣定檢改善空氣品質示意圖"></figure>
+
+    <figure class="official-photo second-photo">
+      <div class="photo-fallback">
+        <span>🏢🚗</span>
+        <strong>汽油車排氣檢驗站</strong>
+        <small>外部政府照片若無法載入，會顯示此備援畫面。</small>
+      </div>
+      <img class="remote-photo"
+           src="https://www.nantou.gov.tw/upload/ZXICeP44W62bWF5R.JPG"
+           alt="汽油車排氣檢驗站實景">
+      <figcaption>汽油車排氣檢驗站示意實景｜圖片來源：南投縣政府</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="section-title">
+    <p class="eyebrow">FAQ</p>
+    <h2>常見問題</h2>
+  </div>
+
+  <div class="faq-list">
+    <div class="faq-item">
+      <button class="faq-question"><span><b>Q1</b>滿 8 年後每年都要驗排氣嗎？</span><i>＋</i></button>
+      <div class="faq-answer"><p>不是。一般汽油車是出廠滿 8 年以上後，每 2 年於車齡為偶數年時驗 1 次；若曾經檢驗不合格後改善合格，則次年起連續 2 年每年驗 1 次。</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question"><span><b>Q2</b>一定要在新北市驗嗎？</span><i>＋</i></button>
+      <div class="faq-answer"><p>可至主管機關委託認可的汽油車排氣檢驗站，或中央主管機關委託的公路監理機關辦理；可利用環境部系統查詢站點。</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question"><span><b>Q3</b>排氣檢驗和一般驗車要跑兩次嗎？</span><i>＋</i></button>
+      <div class="faq-answer"><p>通常不用。實務上仍可在監理所站或民間認可代檢廠辦理，電腦系統會自動判定該次是否需做排氣檢測。</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question"><span><b>Q4</b>排氣檢驗要另外付費嗎？</span><i>＋</i></button>
+      <div class="faq-answer"><p>環境部公開資料列汽油車排氣定檢每輛檢測費 100 元，由空污基金補助；監理機關亦說明車主無需為這項排氣檢驗額外繳費。</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question"><span><b>Q5</b>不合格可以晚一點再修嗎？</span><i>＋</i></button>
+      <div class="faq-answer"><p>不建議拖延。依法應於檢驗日起 1 個月內修復並申請複驗；逾期或複驗仍不合格可能受罰。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="official-links">
+  <div class="section-title">
+    <p class="eyebrow">OFFICIAL LINKS</p>
+    <h2>正式查詢入口</h2>
+  </div>
+
+  <div class="link-grid">
+    <a href="https://mobile.moenv.gov.tw/FuelCar/" target="_blank" rel="noopener"><span>🚗</span><div><strong>環境部汽車排氣定檢系統</strong><small>最新消息、檢驗資料與檢驗站</small></div><b>↗</b></a>
+    <a href="https://mobile.moenv.gov.tw/FuelCar/Query" target="_blank" rel="noopener"><span>🔎</span><div><strong>定期檢驗資料查詢</strong><small>輸入車號查詢檢驗紀錄</small></div><b>↗</b></a>
+    <a href="https://mobile.moenv.gov.tw/FuelCar/Station/StationLocation" target="_blank" rel="noopener"><span>📍</span><div><strong>汽油車排氣檢驗站查詢</strong><small>依縣市與區域查詢站點</small></div><b>↗</b></a>
+    <a href="https://mobile.moenv.gov.tw/NoticeCarMain.aspx" target="_blank" rel="noopener"><span>✉️</span><div><strong>使用中車輛 E 定通</strong><small>Email 訂閱定檢提醒</small></div><b>↗</b></a>
+    <a href="https://oaout.moenv.gov.tw/Law/LawContent.aspx?id=GL007861" target="_blank" rel="noopener"><span>📜</span><div><strong>汽油車定檢正式法規</strong><small>對象、頻率、地點與期限</small></div><b>↗</b></a>
+    <a href="https://www.epd.ntpc.gov.tw/" target="_blank" rel="noopener"><span>🏙️</span><div><strong>新北市政府環境保護局</strong><small>最新公告與聯絡資訊</small></div><b>↗</b></a>
+  </div>
+</section>
+
+<section class="template-notice">
+  <div class="template-notice-box">
+    <span>!</span>
+    <div>
+      <strong>網站範本提醒</strong>
+      <p>本頁為網站範本，正式發布前請更新聯絡方式及公告內容。</p>
+    </div>
+  </div>
+</section>
+
+<section class="source-note">
+  <div>
+    <strong>資料說明</strong>
+    <p>本頁依環境部汽車排氣定期檢驗資訊管理系統、環境部主管法規及政府公開資訊整理為便民閱讀版本。檢驗規定、站點、裁罰及個案認定可能調整，實際仍以主管機關最新公告為準。</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div>
+    <strong>新北市汽油車定期排氣檢驗資訊專區</strong>
+    <span>新北市政府環境保護局總機：(02) 2953-2111 分機 9｜正式資訊以主管機關公告為準</span>
+  </div>
+  <a href="#top">↑ 回到頁首</a>
+</footer>
+
+<script src="script.js?v=2"></script>
+</body>
+</html>
